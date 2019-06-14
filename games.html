@@ -3,10 +3,14 @@
 <head>
     <title>Rohan's Website</title>
     <style>
-        .video{
-            width: 300px;
-            height: 200px;
-            margin: 10px
+        
+        .content{margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:
+            space-around;
+            height: 800px;
+            width: 800px;
         }
         .toolbar {
             display: flex;
@@ -18,35 +22,42 @@
             width: 100vw;
             height: 100hw;
         }
-        
         body{
             background-color:hotpink;
-            color:white
-        }
+            color:white;
+    } 
          a {
             color: blue;
         }
+        #start{
+            width:275px;
+            height: 200px;
+        }
+
+            
     </style>
 </head>
-<body>    <h1>The Rohan Web!</h1>
+<body>
+        
+            
+    <h1 class="sticky">The Rohan Web!</h1>
     <div class="main">
     
     <div class="toolbar">
         <h2><a href="./rohan.html">Info</a></h2>
         <h2><a href="./videos.html">Videos</a></h2>
-        <h2><a href="./games.html">Games</a></h2>
+        <h2><a href="#games">Games</a></h2>
     </div>
-    <p>
-        If you are asking yourself why there are video's,two things.First of all,<a href="https://www.codeninjas.com/">Code Ninjas</a> made me, plus you can use the videos to relax and get ready for the challenging, but yet a fun one. Take a deep breath and START.
-        </p>
+    <img id="start" src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/tnv5NWN/start-button-on-a-white-background_hda2soyd__F0000.png"
+
+
+    <div class="content" id="games">
+            <iframe src="https://scratch.mit.edu/projects/315027739/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <iframe src="https://scratch.mit.edu/projects/315735450/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <iframe src="https://scratch.mit.edu/projects/315263560/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      
+    </div>
 
     </div>
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/uuxoThzFPPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MXPROofzhHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Lvz6BzwHz_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jRSJ9y0mLxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-
 </body>
 </html>
